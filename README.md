@@ -57,9 +57,7 @@ That's what it is about :)
     # for russians:
     LOCALE_PATHS = (
         # ...
-
         '/absolute/path/to/native_admin/locale/',
-
         # ...
     )
     # and run in command line: ./manage.py compilemessages
