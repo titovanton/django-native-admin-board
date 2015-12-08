@@ -115,7 +115,8 @@ Create your admin site:
 
     admin_site = MyAdminSite(name='MyAdminSite')
 
-You will not need in admin.autodiscover() since you used SimpleAdminConfig in settings.py
+You don't need register your models anymore.
+Also, you do not need in admin.autodiscover() since you used SimpleAdminConfig in settings.py
 
     # urls.py
     # ...
