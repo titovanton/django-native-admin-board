@@ -42,9 +42,7 @@ That's what it is about :)
             'BACKEND': 'django.template.backends.django.DjangoTemplates',
             'DIRS': [
                 # ...
-
                 '/absolute/path/to/native_admin/templates/',
-
                 # ...
             ],
             'APP_DIRS': True,
