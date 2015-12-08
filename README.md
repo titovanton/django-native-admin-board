@@ -95,7 +95,7 @@ Create your admin site:
 
 
     class MyAdminSite(NativeAdminSite):
-        site_header = 'My beatyfull dashboard'
+        site_header = 'My beautiful dashboard'
 
         boards = [
             (u'Products', [
